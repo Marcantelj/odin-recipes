@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html {
     background-color: #fdf0d5;
 }
+
 
 h1, a{
     display: block;
@@ -12,12 +18,26 @@ h1 {
     color: #fff;
 }
 
+.main_container {
+    width: 650px;
+    height: auto;
+    background-color: #fff;
+    margin: 8px auto;
+    padding: 10px;
+    border: 2px #c1121f solid;
+}
+
+#card {
+    width: 800px;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid#c1121f;
-    border-radius: 20px; 
+    border-radius: 20px;
+    margin-top: 8px; 
 }
 
 #odin {
