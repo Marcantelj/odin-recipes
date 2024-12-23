@@ -11,11 +11,27 @@ html {
 h1, a{
     display: block;
     text-align: center;
+    color: #fff;
 }
 
 h1 {
     background-color: #c1121f;
-    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 300px;
+    padding: 8px;
+    display: block;
+    margin: 8px auto 8px auto;
+    background-color: #c1121f;
+}
+
+button:hover {
+    background-color: #7bbbe2;
 }
 
 .main_container {
