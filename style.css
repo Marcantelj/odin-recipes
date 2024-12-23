@@ -20,13 +20,15 @@ h1 {
 
 a {
     text-decoration: none;
+    width: 200px;
+    padding: 8px;
 }
 
 button {
-    width: 300px;
-    padding: 8px;
     display: block;
-    margin: 8px auto 8px auto;
+    padding-block: 0px;
+    padding-inline: 0px;
+    margin:  8px auto 8px auto;
     background-color: #c1121f;
 }
 
